@@ -27,8 +27,8 @@ function showCalculatedOutput(input){
     let billPerPerson = totalAmount / parseFloat(input.noOfPerson);
     // console.log(totalTip, totalAmount, tipPerPerson, billPerPerson);
 
-    document.getElementById('total-bill').innerHTML = `$ ${totalAmount.toFixed(2)}`;
-    document.getElementById('bill-per-person').innerHTML = `$ ${billPerPerson.toFixed(2)}`;
-    document.getElementById('total-tip').innerHTML = `$ ${totalTip.toFixed(2)}`;
-    document.getElementById('tip-per-person').innerHTML = `$ ${tipPerPerson.toFixed(2)}`;
+    document.getElementById('total-bill').innerHTML = `Rs ${totalAmount.toFixed(2)}`;
+    document.getElementById('bill-per-person').innerHTML = `Rs ${billPerPerson.toFixed(2)}`;
+    document.getElementById('total-tip').innerHTML = `Rs ${totalTip.toFixed(2)}`;
+    document.getElementById('tip-per-person').innerHTML = `Rs ${tipPerPerson.toFixed(2)}`;
 }
